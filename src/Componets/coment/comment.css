@@ -1,0 +1,141 @@
+.button-save{
+    color: antiquewhite;
+    background-color: aliceblue;
+}
+.blog-post-btn{
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    background-color: var(--green-medium-color);
+    border-radius: 6px;
+    border-width: 0px;
+    margin-left: 16px;
+    opacity: .85;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.comment-post-btn{
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    color: var(--green-medium-color);
+    font-size: medium;
+    background-color: white;
+    border-radius: 6px;
+    border-color: var(--green-medium-color); 
+    border-width: 2px;
+    margin-left: 16px;
+    opacity: .85;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.flecha{
+    width: 25px;
+
+}
+.comment-input-container{
+    position: sticky;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px;
+    min-width: 30%;
+    border-radius: 6px;
+    background: #1A3A39;
+ 
+}
+.comment-container{
+    position: sticky;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px;
+    min-width: 30%;
+    border-radius: 6px;
+    background-image: url("https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;  
+}
+
+.inicio{
+    position: sticky;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.share{
+    
+    color: #18c8c2;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Poor Story';
+}
+.titulo-text{
+color: #39cdc8;
+}
+.container-p{
+ color: #1A3A39;
+ text-align: justify;
+ justify-content: center;
+ margin: 50px;
+ font-family: 'Poor Story';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+font-family: 'Poor Story';
+color: #1A3A39;
+}
+.container-info{
+    color: #1A3A39;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Poor Story'; 
+   }
+   .efecto{
+display: flex;
+flex-direction: inherit;
+   }
+   .lista{
+      color: #1A3A39; 
+      text-align: justify;
+      font-family: 'Poor Story';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+font-family: 'Poor Story';
+color: #1A3A39;
+   }
+   .planet{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 30px;
+    font-family: 'Poor Story';
+    
+    color: #2C6E6B;
+    
+   }
+   .aut{
+    color:#57F0FF;
+   }
+   .flecha{
+  margin: 10px;
+   }
