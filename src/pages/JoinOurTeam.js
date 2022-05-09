@@ -1,5 +1,4 @@
 import React from 'react'
-import FeaturedPost from '../Componets/FeaturedPost'
 import '../Componets/coment/comment.css'
 import fly from '../pages/fly.jpg'
 export const JoinOurTeam = () => {
