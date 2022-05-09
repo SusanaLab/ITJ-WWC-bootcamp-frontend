@@ -1,5 +1,4 @@
 import React from 'react'
-import FeaturedPost from '../Componets/FeaturedPost'
 import ListPost from '../Componets/ListPost'
 import pic from '../pages/Group 1.png'
 import '../Componets/coment/comment.css'

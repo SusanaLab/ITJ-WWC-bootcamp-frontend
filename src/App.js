@@ -24,15 +24,8 @@ function App() {
     fetchPosts();
   }, []);
 
-  const findPostById = (id) => {
-    return allPosts[id];
-    
-  };
-
-
-
   const handleOnSave = async (post) => {
-    const res = await createPost(post);
+    await createPost(post);
     setAllPosts([...allPosts, post]);
     navigate("/", {replace: true});
     
