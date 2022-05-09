@@ -23,14 +23,7 @@ function App() {
   useEffect(() => {
     fetchPosts();
   }, []);
-
-  const findPostById = (id) => {
-    return allPosts[id];
-    
-  };
-
-
-
+  
   const handleOnSave = async (post) => {
     const res = await createPost(post);
     setAllPosts([...allPosts, post]);
