@@ -19,18 +19,17 @@ const CreatePost = ({  onSave}) => {
 
 const [newPostState, setNewPostState] = useState( newPost);
 
-const fetchingPostById = async () => {
+
+
+useEffect(() => {
+  const fetchingPostById = async () => {
   const res = await getPostById(postId);
   setNewPostState(res);
 };
-
-useEffect(() => {
   if (postId) {
     fetchingPostById();
-  } else {
-    setNewPostState(newPost);
   }
-}, []);
+}, [postId]);
 
 
   const handleOnChange = (event) => {
